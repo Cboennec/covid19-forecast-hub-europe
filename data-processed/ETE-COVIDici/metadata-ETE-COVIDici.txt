@@ -1,0 +1,11 @@
+team_name: ETE
+model_name: COVIDici
+model_abbr: ETE-COVIDici
+model_contributors: Corentin Boennec <corentin.boennec@ird.fr>, Mircea Sofonea <mircea.sofonea@umontpellier.fr>, Samuel Alizon <samuel.alizon@cnrs.fr>
+website_url: https://cloudapps.france-bioinformatique.fr/covidici/
+license: cc-by-nc-4.0
+team_model_designation: primary
+methods: Bayesian inference of a set of parameters used to recreate the epidemic curve then the last interaction parameter is used to continue the curve and produce forecasting. 
+team_funding: This model's development is funded by the European Centres for Disease Countrol.
+repo_url: https://gitlab.in2p3.fr/ete/depcovsim
+data_inputs: incident ICU, deaths and vaccine from Santé Publique France (SPF).
